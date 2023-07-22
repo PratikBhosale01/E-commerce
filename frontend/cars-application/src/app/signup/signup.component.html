@@ -1,0 +1,48 @@
+<form [formGroup]="form" (ngSubmit)="signUp()" >
+    <div class="card">
+        <div class="text-center"></div>
+        <h1 style="color: aliceblue;" >Sign-Up</h1>
+              <h5 style="color: rgb(233, 233, 233);">Please Fill The Details !!</h5>
+    
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label" style="color: rgb(255, 255, 255);">Username</label>
+      <input formControlName="username"  type="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <small *ngIf="username?.errors?.['required']" class="text-danger" >*Username is required</small>
+      <small *ngIf="username?.errors?.['minlength']" class="text-danger">*Username must contain 6 or more characters </small>
+      <small *ngIf="username?.errors?.['maxlength']" class="text-danger">*Username must contain max 10 characters </small>
+
+    </div>
+
+    <div class="mb-3">
+        <label for="email" class="form-label" style="color: aliceblue;">Email address</label>
+        <input formControlName="email" type="email" class="form-control"
+         name="email" >
+         <small *ngIf="email?.errors?.['required']" class="text-danger" >*Email is required</small>
+        <small *ngIf="email?.errors?.['pattern']" class="text-danger">*Enter a valid Email Id</small>
+           
+    
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label" style="color: aliceblue;">Address</label>
+        <input formControlName="address" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small *ngIf="address?.errors?.['required']" class="text-danger">*address is required</small>
+        <small *ngIf="address?.errors?.['minlength']" class="text-danger">*address must contain 6 or more characters </small>
+       
+      </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label" style="color: aliceblue;">Password</label>
+      <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+      <small *ngIf="password?.errors?.['required']" class="text-danger" >*Password is required</small>
+      <small *ngIf="password?.errors?.['pattern']" class="text-danger">*password Must contain at least one number and one uppercase and lowercase letter, 
+        and at least 8 and 1 symbol or more characters </small>
+    </div>
+    
+    <button type="submit" [disabled]="form.invalid" class="btn btn-primary mt-3" >Sign-Up</button>
+    <div style="margin-top: 2%;">
+    <a routerLink="/login" style="color: aliceblue;">If Already Registerd then Click Here To Log-In </a>
+</div>
+</div>
+  </form>
+  <router-outlet></router-outlet>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1416cf7-d5aa-4a0e-aa9d-ed97e1acaa9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/service/UserProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/service/UserProductServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ApiGateway/src/main/java/com/example/ApiGateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ApiGateway/src/main/java/com/example/ApiGateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ApiGateway/src/main/java/com/example/ApiGateway/config/RoutingGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ApiGateway/src/main/java/com/example/ApiGateway/config/RoutingGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/TrackServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/ProductsServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/controller/UserProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/controller/UserProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/exception/ProductAlreadyExists.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/exception/ProductUserAlreadyExists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/model/UserProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/model/UserProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/proxy/UserProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/proxy/UserProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/repository/ProductRepos.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/repository/UserProductRepos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/service/ProductServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/java/com/exampleSQL/productservice/service/ProductServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/ProdustService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/ProdustService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/UserAuthentication/src/main/java/com/niit/UserAuthentication/UserAuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/UserAuthentication/src/main/java/com/niit/UserAuthentication/UserAuthenticationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/UserAuthentication/src/main/java/com/niit/UserAuthentication/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/UserAuthentication/src/main/java/com/niit/UserAuthentication/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/UserAuthentication/src/main/java/com/niit/UserAuthentication/service/SecurityTokenGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/UserAuthentication/src/main/java/com/niit/UserAuthentication/service/SecurityTokenGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/cars-application/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cars-application/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/cars-application/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cars-application/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/cars-application/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cars-application/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/cars-application/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cars-application/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/cars-application/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cars-application/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/cars-application/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cars-application/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/cars-application/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cars-application/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/cars-application/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cars-application/src/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2M0sGcxzPKHUMJo9otwfzlhiLXW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/BE_AS/TASK/PreProject/backend"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1416cf7-d5aa-4a0e-aa9d-ed97e1acaa9a" name="Changes" comment="" />
+      <created>1676915740065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676915740065</updated>
+    </task>
+    <servers />
+  </component>
+</project>

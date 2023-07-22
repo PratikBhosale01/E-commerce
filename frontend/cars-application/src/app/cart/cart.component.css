@@ -1,0 +1,13 @@
+
+#empty{
+    font-size: 50px;
+    margin-left: 38%; margin-top: 5%;
+}
+#emp{
+    font-size: 20px;
+    margin-left: 43%; margin-top: 2%;
+}
+#div1{
+    background-color: rgb(53, 56, 59);
+    background:linear-gradient(0deg , rgb(46, 47, 48)0%, rgb(133, 133, 134)100%);
+}

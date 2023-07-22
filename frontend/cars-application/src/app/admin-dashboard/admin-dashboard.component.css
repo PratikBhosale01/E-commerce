@@ -1,0 +1,11 @@
+io{
+    width:20%;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.card{
+    background-color: rgb(53, 56, 59);
+    background:linear-gradient(0deg , rgb(46, 47, 48)0%, rgb(133, 133, 134)100%);
+}

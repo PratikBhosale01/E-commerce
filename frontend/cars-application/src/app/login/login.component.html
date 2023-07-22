@@ -1,0 +1,29 @@
+<!-- <h1> i am login</h1> -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+
+      <form [formGroup]="form" (ngSubmit)="login()">
+        <div class="card">
+          <div class="text-center"></div>
+          <h1 style="color: aliceblue;">Login</h1>
+          <h5 style="color:bisque">Please enter email & password !!</h5>
+          <div class="mb-3">
+            <label class="form-label" style="color: aliceblue;">Email address</label>
+            <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label class="form-label" style="color: aliceblue;">Password</label>
+            <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-secondary " style="width: 100px; ">Login</button>
+          <div style="margin-top: 2%;">
+            <a routerLink="/signup"style="color: aliceblue;" >New User ! Sign-Up Here</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

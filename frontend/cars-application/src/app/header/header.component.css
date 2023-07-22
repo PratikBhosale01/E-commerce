@@ -1,0 +1,21 @@
+.excard {
+    max-width: 1600px;
+    height: 130px;
+    background-color: rgb(28, 30, 32);
+    background:linear-gradient(0deg , rgb(27, 29, 30)0%, rgb(83, 83, 85)100%);
+    color: #928080;
+  }
+  a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .title{
+  
+   font-size: 50px;
+
+  }
+  #text{
+  margin-top: 20px;
+  }
+  
